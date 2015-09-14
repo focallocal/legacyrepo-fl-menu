@@ -1,0 +1,34 @@
+#fl-menu .menu-logo {
+  background-image: url("http://focallocal.org/wp-content/uploads/2015/03/focallocal-very-low-res1-min.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* hide text */
+  text-indent: -9999px;
+}
+
+#fl-menu .row {
+ margin:0;
+}
+
+#fl-menu .menu-item {
+  border: 1px solid #ffb400;
+  border-width: 0 1px 0 1px;
+
+  height: 70px;
+}
+
+#fl-menu .last-child {
+  border-right: 0px;
+}
+
+#fl-menu a {
+  height: 70px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#fl-menu {
+  border-bottom: 2px solid #ffb400;
+  background-color: whitesmoke;
+}
