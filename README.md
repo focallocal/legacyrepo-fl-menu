@@ -1,6 +1,6 @@
 This is a solution for a global menu that should be included over all the
 focallocal websites. It provides easy navigation within the focallocal network.
-The goal was to provide an easy way to include it with a single script source.
+It can be included with a single <script> tag.
 
 # how to use
 
