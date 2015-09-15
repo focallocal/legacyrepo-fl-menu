@@ -6,7 +6,7 @@ It can be included with a single script-tag.
 
 Include the script on the desired page with a script tag after closing the body.
 
-> <script src="http://server/fl-menu/fl-menu.js"></script>
+    <script src="http://server/fl-menu/fl-menu.js"></script>
 
 The script automatically includes `fl-menu.css` and `materialze.css`, which is
 served from a content delivery network. 
