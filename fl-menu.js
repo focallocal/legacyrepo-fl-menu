@@ -37,9 +37,6 @@
     return listElement;
   }
 
-  //var getMenuItems = function () { return document.querySelectorAll('.menu-item'); }
-
-  // add the fl-menu to the body as first child
   var wrapper = document.createElement("div");
   var menu = document.createElement("nav");
   var container = document.createElement("ul");
@@ -51,13 +48,9 @@
   menu.className = "nav-collapse";
 
   wrapper.appendChild(logo);
-  document.body.insertBefore(wrapper, document.body.firstChild);
+  document.body.insertBefore(wrapper, document.body.firstChild); // add the fl-menu to the body as first child
   menu.appendChild(container);
   wrapper.appendChild(menu);
-
-  // add container for links to the menu
-
-  // add the logo
 
   // add entries to container
   for(var title in entries) {
