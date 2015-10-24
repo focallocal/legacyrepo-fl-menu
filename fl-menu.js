@@ -65,8 +65,12 @@
   // las entry gets special css treament
   container.lastChild.className += " last-child";
 
+  // settings for responsiveNav
+  var responsiveNavSetting = {
+  }
+
   // make navigation responsive
-  var nav = responsiveNav(".nav-collapse");
+  var nav = responsiveNav(".nav-collapse", responsiveNavSetting);
 
   /* LOAD CSS */
   // get URL to folder, from which this script was loaded and include fl-menu.css
