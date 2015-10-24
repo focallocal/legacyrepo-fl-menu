@@ -80,4 +80,23 @@
   var scriptFolder = scriptPath.substr(0, scriptPath.lastIndexOf( '/' )+1 );
   loadCss(scriptFolder + "fl-menu.all.css");
 
+  /* Scrolling functionality
+   * hide when scrolling down
+   * show when scrolling up again (like top bar on google plus)
+   *
+   * @todo optimize function calls
+   */
+  var oldScrollPosition = document.body.scrollTop;
+  document.onscroll = function() {
+    // scrollind down
+    if(document.body.scrollTop > oldScrollPosition) {
+      wrapper.style.display = 'none';
+    } else {
+      wrapper.style.display = '';
+    }
+    // set
+    oldScrollPosition = document.body.scrollTop;
+  }
+
+
 })();
