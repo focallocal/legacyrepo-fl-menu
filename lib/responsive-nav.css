@@ -16,7 +16,7 @@
 .js .nav-collapse {
   clip: rect(0 0 0 0);
   max-height: 0;
-  position: absolute;
+  position: relative !important;    /* the script changes this to relative, which makes it disappear */
   display: block;
   overflow: hidden;
   zoom: 1;
