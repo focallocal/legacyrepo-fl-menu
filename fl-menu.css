@@ -5,7 +5,7 @@
 #fl-menu {
   background: #f4421a;
   position: fixed;
-  z-index: 3;
+  z-index: 9999999; /* really make sure it's on top of everything */
   width: 100%;
   left: 0;
   top: 0;
