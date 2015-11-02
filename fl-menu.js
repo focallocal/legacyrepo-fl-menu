@@ -2,11 +2,11 @@
 
     // set the entries { title: url }
     var entries = {
-      "About FL": "http://focallocal.org",
-      "Profile": "http://focallocal.org",
-      "FL News": "http://focallocal.org",
-      "Events": "http://focallocal.org",
-      "Shop": "http://focallocal.org",
+      //"Shop": "http://focallocal.org",
+      "About Focallocal": "http://focallocal.org/about-us/",
+      "Community News": "http://focallocal.org",
+      "Focallocal Events": "http://focallocal.meteor.com/events/map",
+      "Activities": "http://focallocal.org/what-we-do-what-you-can-do/",
     }
 
   var loadCss = function(cssPath) {
@@ -44,7 +44,7 @@
 
   wrapper.id = "fl-menu";
   logo.className = "menu-logo";
-  logo.innerHTML = "Focallocal";
+  logo.innerHTML = "Focallocal Menu";
   menu.className = "nav-collapse";
 
   wrapper.appendChild(logo);
