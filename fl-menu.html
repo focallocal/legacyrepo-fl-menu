@@ -1,29 +1,29 @@
-<header>
- <link rel="stylesheet" href="{{RELATIVE_PATH}}css/index.css">
- <!-- Compiled and minified JavaScript -->
- <script>
-  var $ = jQuery;
-  (function($){
-    $(function(){
+<div id="fl-menu">
+  <style>
+    @import url("{{RELATIVE_PATH}}css/index.css");
+    html, body { margin: 0; padding: 0; }
+  </style>
+  <script>
+   var $ = jQuery;
+   (function($){
+     $(function(){
 
-      $('.dropdown-button').dropdown({
-        inDuration: 300,
-        outDuration: 225,
-        constrain_width: false,
-        hover: false,
-        alignment: 'right',
-        gutter: 0,
-        belowOrigin: true
-      });
+       $('.dropdown-button').dropdown({
+         inDuration: 300,
+         outDuration: 225,
+         constrain_width: false,
+         hover: false,
+         alignment: 'right',
+         gutter: 0,
+         belowOrigin: true
+       });
 
-      $('.button-collapse').sideNav({menuWidth: 240, activationWidth: 70});
+       $('.button-collapse').sideNav({menuWidth: 240, activationWidth: 70});
 
-    }); // end of document ready
-  })(jQuery); // end of jQuery name space
- </script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
-</header>
-  <div id="menu-top">
+     }); // end of document ready
+   })(jQuery); // end of jQuery name space
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
   <nav>
     <div class="nav-wrapper">
         <a class="brand-logo hide-on-med-and-down left" href="http://focallocal.org">Focallocal</a>
@@ -117,4 +117,3 @@
       </li>
   </ul>
 </div>
-</header>
