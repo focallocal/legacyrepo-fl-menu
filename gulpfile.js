@@ -4,7 +4,7 @@ var uncss = require('gulp-uncss');
 var scopeCss = require("gulp-scope-css");
 var mustache = require("gulp-mustache");
 
-gulp.task('default', ['sass','mustache']);
+//gulp.task('default', ['']);
 
 gulp.task('sass', function() {
   gulp.src('./sass/index.scss')
@@ -17,10 +17,13 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./css'));
 })
 
-gulp.task('mustache', function() {
-  gulp.src("./fl-menu.html")
-    .pipe(mustache())
-    .pipe(gulp.dest("./dist/"));
+gulp.task('mustache',['sass'], function() {
+    // declaring a task dependency didn't work.
+    // https://github.com/gulpjs/gulp/blob/master/docs/API.md#async-task-support
+    // so i have to run gulp mustache everytime after gulp sass
+    gulp.src("./fl-menu.html")
+      .pipe(mustache())
+      .pipe(gulp.dest("./dist/"));
 });
 
 gulp.task('sass:watch', function () {
