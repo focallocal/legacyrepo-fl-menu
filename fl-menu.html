@@ -1,6 +1,6 @@
 <div id="fl-menu">
   <style>
-    @import url("{{RELATIVE_PATH}}css/index.css");
+    {{> css/index.css }}
     html, body { margin: 0; padding: 0; }
   </style>
   <script>
@@ -23,6 +23,7 @@
      }); // end of document ready
    })(jQuery); // end of jQuery name space
   </script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
   <nav>
     <div class="nav-wrapper">
