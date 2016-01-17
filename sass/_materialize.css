@@ -116,6 +116,18 @@ i {
   content: "\e638";
 }
 
+.mdi-device-brightness-high:before {
+  content: "\e739";
+}
+
+.mdi-image-flare:before {
+  content: "\e816";
+}
+
+.mdi-maps-directions-walk:before {
+  content: "\e864";
+}
+
 .mdi-maps-local-florist:before {
   content: "\e871";
 }
@@ -124,20 +136,8 @@ i {
   content: "\e8a1";
 }
 
-.mdi-social-group:before {
-  content: "\e8cb";
-}
-
 .mdi-social-group-add:before {
   content: "\e8cc";
-}
-
-.mdi-social-mood:before {
-  content: "\e8ce";
-}
-
-.mdi-social-public:before {
-  content: "\e8dd";
 }
 
 nav {
