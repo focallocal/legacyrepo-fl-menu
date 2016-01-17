@@ -11,11 +11,6 @@
       "icon": "mdi-social-public"
     },
     {
-      "title": "Action C",
-      "url": "http://news.focallocal.org/what-we-do-what-you-can-do/",
-      "icon": "mdi-social-mood"
-    },
-    {
       "title": "Activities",
       "url": "http://news.focallocal.org/what-we-do-what-you-can-do/",
       "icon": "mdi-social-mood"
@@ -23,24 +18,25 @@
     {
       "title": "Gather",
       "url": "http://focallocal.meteor.com/",
-      "icon": "mdi-action-event"
+      "icon": "mdi-social-group-add"
     }
   ],
   "right": [
     {
-      "title": "More",
-      "url": "http://focallocal.org/",
-      "icon": "mdi-action-home"
+      "title": "Help Us Grow",
+      "url": "http://boards.focallocal.org/",
+      "icon": "mdi-maps-local-florist",
+      "description": "We are entirely run by volunteers (and Andy). If you want to help (yay!), check out our Task-Boards and let us know  =)"
     },
     {
       "title": "Vision",
       "url": "http://focallocal.org/",
-      "icon": "mdi-social-mood"
+      "icon": "mdi-action-favorite"
     },
     {
       "title": "The Team",
       "url": "#",
-      "icon": "mdi-social-mood"
+      "icon": "mdi-social-group"
     }
   ]
 }
