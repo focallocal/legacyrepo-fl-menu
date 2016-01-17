@@ -1,24 +1,24 @@
 {
   "left": [
     {
-      "title": "About",
-      "url": "http://focallocal.org/",
+      "title": "About Us",
+      "url": "http://news.focallocal.org/about-us/",
       "icon": "mdi-action-info"
     },
     {
-      "title": "News",
+      "title": "Happy News",
       "url": "http://news.focallocal.org/",
-      "icon": "mdi-social-public"
+      "icon": "mdi-device-brightness-high"
     },
     {
       "title": "Activities",
       "url": "http://news.focallocal.org/what-we-do-what-you-can-do/",
-      "icon": "mdi-social-mood"
+      "icon": "mdi-maps-directions-walk"
     },
     {
       "title": "Gather",
       "url": "http://focallocal.meteor.com/",
-      "icon": "mdi-social-group-add"
+      "icon": "mdi-image-flare"
     }
   ],
   "right": [
@@ -34,9 +34,9 @@
       "icon": "mdi-action-favorite"
     },
     {
-      "title": "The Team",
-      "url": "#",
-      "icon": "mdi-social-group"
+      "title": "Join The Team",
+      "url": "http://news.focallocal.org/focallocal-core-team-applications/",
+      "icon": "mdi-social-group-add"
     }
   ]
 }
