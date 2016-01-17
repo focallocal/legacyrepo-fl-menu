@@ -17,12 +17,12 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./css'));
 })
 
-gulp.task('mustache',['sass'], function() {
+gulp.task('mustache', function() {
     // declaring a task dependency didn't work.
     // https://github.com/gulpjs/gulp/blob/master/docs/API.md#async-task-support
     // so i have to run gulp mustache everytime after gulp sass
     gulp.src("./fl-menu.html")
-      .pipe(mustache())
+      .pipe(mustache("fl-menu.json"))
       .pipe(gulp.dest("./dist/"));
 });
 

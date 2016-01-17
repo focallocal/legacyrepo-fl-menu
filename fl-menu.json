@@ -1,0 +1,46 @@
+{
+  "left": [
+    {
+      "title": "About",
+      "url": "http://focallocal.org/",
+      "icon": "mdi-action-info"
+    },
+    {
+      "title": "News",
+      "url": "http://news.focallocal.org/",
+      "icon": "mdi-social-public"
+    },
+    {
+      "title": "Action C",
+      "url": "http://news.focallocal.org/what-we-do-what-you-can-do/",
+      "icon": "mdi-social-mood"
+    },
+    {
+      "title": "Activities",
+      "url": "http://news.focallocal.org/what-we-do-what-you-can-do/",
+      "icon": "mdi-social-mood"
+    },
+    {
+      "title": "Gather",
+      "url": "http://focallocal.meteor.com/",
+      "icon": "mdi-action-event"
+    }
+  ],
+  "right": [
+    {
+      "title": "More",
+      "url": "http://focallocal.org/",
+      "icon": "mdi-action-home"
+    },
+    {
+      "title": "Vision",
+      "url": "http://focallocal.org/",
+      "icon": "mdi-social-mood"
+    },
+    {
+      "title": "The Team",
+      "url": "#",
+      "icon": "mdi-social-mood"
+    }
+  ]
+}
