@@ -1,12 +1,9 @@
-$roboto-font-path: "assets/fl-menu/roboto/" !default;
-$icons-font-path: "assets/fl-menu/material-design-icons/" !default;
-$hobo-font-path: "assets/fl-menu/hobo/" !default;
-
-@import "materialize/materialize.scss";
+@import "materialize";
+@import "variables";
 @import "logo";
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
 
-#fl-menu {
-  font-family: "Roboto", sans-serif;
+nav {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
 }
-
-html, body { margin: 0; padding: 0; }
